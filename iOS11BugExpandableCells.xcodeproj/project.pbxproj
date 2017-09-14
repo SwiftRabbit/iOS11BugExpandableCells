@@ -9,35 +9,35 @@
 /* Begin PBXBuildFile section */
 		7B1469BF1F6ACA6E00326B71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1469BE1F6ACA6E00326B71 /* AppDelegate.swift */; };
 		7B1469C11F6ACA6E00326B71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1469C01F6ACA6E00326B71 /* ViewController.swift */; };
-		7B1469C41F6ACA6E00326B71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B1469C21F6ACA6E00326B71 /* Main.storyboard */; };
 		7B1469C61F6ACA6E00326B71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B1469C51F6ACA6E00326B71 /* Assets.xcassets */; };
-		7B1469C91F6ACA6E00326B71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B1469C71F6ACA6E00326B71 /* LaunchScreen.storyboard */; };
 		7B1469D51F6ACACE00326B71 /* ExpandableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1469D31F6ACACE00326B71 /* ExpandableCell.swift */; };
-		7B1469D61F6ACACE00326B71 /* ExpandableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B1469D41F6ACACE00326B71 /* ExpandableCell.xib */; };
 		7B1469DC1F6ACC5F00326B71 /* StandardHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1469D11F6ACAB800326B71 /* StandardHeaderView.swift */; };
 		7B1469DD1F6ACC6100326B71 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1469D81F6ACB0F00326B71 /* Reusable.swift */; };
 		7B1469DE1F6ACC6300326B71 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1469D91F6ACB0F00326B71 /* NibLoadable.swift */; };
 		7B1469DF1F6ACC6600326B71 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1469DB1F6ACBE800326B71 /* UITableView+Reusable.swift */; };
 		7B1469E11F6ACD8000326B71 /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1469E01F6ACD8000326B71 /* UIView+extension.swift */; };
 		7B1469E21F6ACDFD00326B71 /* StandardHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B1469D21F6ACAB800326B71 /* StandardHeaderView.xib */; };
+		7BF98B3A1F6AD595002DAB12 /* ExpandableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BF98B391F6AD595002DAB12 /* ExpandableCell.xib */; };
+		7BF98B3C1F6AD5E6002DAB12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF98B3B1F6AD5E6002DAB12 /* Main.storyboard */; };
+		7BF98B3E1F6AD651002DAB12 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF98B3D1F6AD651002DAB12 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7B1469BB1F6ACA6E00326B71 /* iOS11BugExpandableCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS11BugExpandableCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B1469BE1F6ACA6E00326B71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B1469C01F6ACA6E00326B71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7B1469C31F6ACA6E00326B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B1469C51F6ACA6E00326B71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7B1469C81F6ACA6E00326B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B1469CA1F6ACA6E00326B71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B1469D11F6ACAB800326B71 /* StandardHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHeaderView.swift; sourceTree = "<group>"; };
 		7B1469D21F6ACAB800326B71 /* StandardHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StandardHeaderView.xib; sourceTree = "<group>"; };
 		7B1469D31F6ACACE00326B71 /* ExpandableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableCell.swift; sourceTree = "<group>"; };
-		7B1469D41F6ACACE00326B71 /* ExpandableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpandableCell.xib; sourceTree = "<group>"; };
 		7B1469D81F6ACB0F00326B71 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 		7B1469D91F6ACB0F00326B71 /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 		7B1469DB1F6ACBE800326B71 /* UITableView+Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
 		7B1469E01F6ACD8000326B71 /* UIView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
+		7BF98B391F6AD595002DAB12 /* ExpandableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpandableCell.xib; sourceTree = "<group>"; };
+		7BF98B3B1F6AD5E6002DAB12 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7BF98B3D1F6AD651002DAB12 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +75,10 @@
 				7B1469D01F6ACA8E00326B71 /* Cells */,
 				7B1469BE1F6ACA6E00326B71 /* AppDelegate.swift */,
 				7B1469C01F6ACA6E00326B71 /* ViewController.swift */,
-				7B1469C21F6ACA6E00326B71 /* Main.storyboard */,
+				7BF98B3B1F6AD5E6002DAB12 /* Main.storyboard */,
 				7B1469C51F6ACA6E00326B71 /* Assets.xcassets */,
-				7B1469C71F6ACA6E00326B71 /* LaunchScreen.storyboard */,
 				7B1469CA1F6ACA6E00326B71 /* Info.plist */,
+				7BF98B3D1F6AD651002DAB12 /* Launch Screen.storyboard */,
 			);
 			path = iOS11BugExpandableCells;
 			sourceTree = "<group>";
@@ -89,7 +89,7 @@
 				7B1469D11F6ACAB800326B71 /* StandardHeaderView.swift */,
 				7B1469D21F6ACAB800326B71 /* StandardHeaderView.xib */,
 				7B1469D31F6ACACE00326B71 /* ExpandableCell.swift */,
-				7B1469D41F6ACACE00326B71 /* ExpandableCell.xib */,
+				7BF98B391F6AD595002DAB12 /* ExpandableCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -171,10 +171,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B1469C91F6ACA6E00326B71 /* LaunchScreen.storyboard in Resources */,
+				7BF98B3C1F6AD5E6002DAB12 /* Main.storyboard in Resources */,
 				7B1469C61F6ACA6E00326B71 /* Assets.xcassets in Resources */,
-				7B1469C41F6ACA6E00326B71 /* Main.storyboard in Resources */,
-				7B1469D61F6ACACE00326B71 /* ExpandableCell.xib in Resources */,
+				7BF98B3A1F6AD595002DAB12 /* ExpandableCell.xib in Resources */,
+				7BF98B3E1F6AD651002DAB12 /* Launch Screen.storyboard in Resources */,
 				7B1469E21F6ACDFD00326B71 /* StandardHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,25 +198,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		7B1469C21F6ACA6E00326B71 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7B1469C31F6ACA6E00326B71 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7B1469C71F6ACA6E00326B71 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7B1469C81F6ACA6E00326B71 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7B1469CB1F6ACA6E00326B71 /* Debug */ = {
@@ -333,10 +314,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3A2YW4PWU;
 				INFOPLIST_FILE = iOS11BugExpandableCells/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iOS11Bug.ExpandableCells.iOS11BugExpandableCells;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -348,10 +330,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3A2YW4PWU;
 				INFOPLIST_FILE = iOS11BugExpandableCells/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iOS11Bug.ExpandableCells.iOS11BugExpandableCells;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

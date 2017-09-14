@@ -61,6 +61,9 @@ final class ViewController: UIViewController {
         self.tableView.register(headerFooterViewType: StandardHeaderView.self)
         self.tableView.register(cellType: ExpandableCell.self)
         
+        self.tableView.estimatedRowHeight = 100
+        self.tableView.rowHeight = UITableViewAutomaticDimension
+        
         self.tableView.tableFooterView = UIView()
         self.title = "iOS 11 Expandable bug"
     }
