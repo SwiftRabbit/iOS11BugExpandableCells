@@ -5,7 +5,6 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,17 +19,17 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qCc-vJ-G1k">
-                        <rect key="frame" x="28" y="28" width="516" height="156.5"/>
+                        <rect key="frame" x="20" y="20" width="532" height="172.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="qCc-vJ-G1k" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="7Th-h7-Qs5"/>
-                    <constraint firstItem="qCc-vJ-G1k" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="20" id="DjQ-JD-Thg"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="qCc-vJ-G1k" secondAttribute="trailing" constant="20" id="i1W-0L-Nbx"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="qCc-vJ-G1k" secondAttribute="bottom" constant="20" id="ogo-gl-vqp"/>
+                    <constraint firstAttribute="bottom" secondItem="qCc-vJ-G1k" secondAttribute="bottom" priority="750" constant="20" id="4KZ-Ry-alA"/>
+                    <constraint firstAttribute="trailing" secondItem="qCc-vJ-G1k" secondAttribute="trailing" constant="20" id="San-ar-EU3"/>
+                    <constraint firstItem="qCc-vJ-G1k" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Xov-cA-cg2"/>
+                    <constraint firstItem="qCc-vJ-G1k" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="cD4-ii-59m"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
