@@ -23,4 +23,7 @@ class ExpandableCell: UITableViewCell, NibReusable {
         // Configure the view for the selected state
     }
     
+    override func prepareForReuse() {
+        self.titleLabel.text = nil
+    }
 }

@@ -13,13 +13,14 @@ final class ViewController: UIViewController {
     @IBOutlet private weak var tableView: UITableView!
     
     var sections: [SectionType] = [
-        .section1, .section2, .section3
+        .section1, .section2, .section3, .section4
     ]
     
     var sectionsOpened: [SectionType: Bool] = [
         .section1: false,
         .section2: false,
-        .section3: false
+        .section3: false,
+        .section4: false
     ]
     
     func section1Expand() {
@@ -34,6 +35,10 @@ final class ViewController: UIViewController {
         self.toggleSection(section: .section3)
     }
     
+    func section4Expand() {
+        self.toggleSection(section: .section4)
+    }
+    
     func toggleSection(section: SectionType) {
         self.sectionsOpened[section] = !self.sectionsOpened[section]!
         
@@ -46,11 +51,13 @@ final class ViewController: UIViewController {
         case section1
         case section2
         case section3
+        case section4
     }
     
     var stringDatasource: [String] = [
         "Apple just introduced the iPhone X",
         "HELLO WORLD I LIKE POTATOES",
+        "SDAKDASKKASDKSD DSKSDKDI  DASJSADJD SDASJSADJJ DSJDS DSJJSDA DSAJJSD AJDAS ADSJDAS J ADS JDSA SDJADJS JSJD JDAJDSJAD WHY DO YOU DO THAT TO ME iOS 11",
         "SDAKDASKKASDKSD DSKSDKDI  DASJSADJD SDASJSADJJ DSJDS DSJJSDA DSAJJSD AJDAS ADSJDAS J ADS JDSA SDJADJS JSJD JDAJDSJAD WHY DO YOU DO THAT TO ME iOS 11"
     ]
     
@@ -86,6 +93,8 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
             headerView.configWith(title: "BoboSection", isOpen: sectionsOpened[section]!, selector: self.section2Expand)
         case .section3:
             headerView.configWith(title: "BoboSection", isOpen: sectionsOpened[section]!, selector: self.section3Expand)
+        case .section4:
+            headerView.configWith(title: "BoboSection", isOpen: sectionsOpened[section]!, selector: self.section4Expand)
         }
         
         return headerView
